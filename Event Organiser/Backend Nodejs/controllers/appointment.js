@@ -1,6 +1,6 @@
 // Import required modules
 const Appointment = require('../models/Appointment');
-const User = require('../models/User');
+const User = require('../Models/User');
 
 // Create a new appointment
 exports.createAppointment = async (req, res) => {

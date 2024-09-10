@@ -1,5 +1,5 @@
 // Import required modules
-const User = require('../models/User');
+const User = require('../Models/User');
 
 // Get all users
 exports.getAllUsers = async (req, res) => {
